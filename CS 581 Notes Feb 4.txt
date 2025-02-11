@@ -1,0 +1,131 @@
+CS 581 Notes Feb 4
+
+lab at epic 1st floor 750 com ave
+
+11:15 - 12:05 pm group 1 laser cutters
+
+i need trainings and quizzes for lab swipe access
+get piazza / blackboard access
+
+theres a 3d printer at cds for homework
+
+thurs feb 6 guest lecture - PTC Onshape, Ilya Baran, vp of architecture
+- make an onshape account as a student before the lecture
+
+reading group paper selectins due feb 6
+google form submit top 5 choices
+- rlly import cuz i will present on this topic
+
+3dbenchy test print due thurs feb 13
+- use cs dept MakerBot printers in cds 755
+- permitted as backup - epic first-in cart (document stuff u do)
+- bring completed print to class
+
+voxelizer programming assignment due thrs feb 13 (this deadline might be midnight)
+
+DEADLINES ARE 11 AM SO WE CAN BRING TO CLASS
+--------------------------------------------------------------
+
+theres some presentation on a news article - presentation on hospital uses 3d printed models to improve surgical planning
+on 3dprinting.com
+
+NOTES- previous lecture was modeling something solids
+
+ray plane intersection
+
+bring tablet for this class for notes.
+condition 1 is point on a ray		r(t)=p+td
+condition 2 is a point on a plane	(r(t)-C)*n = 0
+substitute (p+td-c)*n=0
+
+t = ((c-p)*n)/(d*n)
+one solution for d*n != 0 (no/infinite solutions otherwise)
+the geometric equiv of /0 is parallel array to the plane
+check if t /in (tmin , tmax) 0 and infinity
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F23181225%2Fray-plane-intersection-finding-direction-vector&psig=AOvVaw29nodfDfa17XTW2yLx1HSh&ust=1738777793027000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCL053KqosDFQAAAAAdAAAAABAE
+
+-------------------------------------------------------
+
+ray triangle intersection
+condition 3 is in the plane, the triangle is the intersection of 3 half spaces?
+cross products and dot products
+this check is done (a-c) x (x-c) * n>0
+
+dot product 
+a*b = |a| |b| cos0
+cross product
+|a*b| = |a| |b| sin0
+a*b is orthogonal to a and b
+
+-------------------------------------------------------
+
+voxelizer ray-mesh intersection
+
+complexity :
+# one dimension of voxel grid	: n
+# triangles			: t
+
+O((n^3) * t)
+
+for each voxel {
+	intersection_count=0
+
+	for each triangle in mesh {
+		cast ray from voxel
+		if (ray-triangle intersection) {
+			intersection_count++
+		}
+	}
+	
+	if (intersection_count is odd) {
+		set voxel as inside surface
+	}
+}
+
+------------------------------------------------------
+
+voxelization
+
+imperfect input meshes
+- voxelization fails
+	- self-intersections
+	- nonmanifold edges
+	- open boundaries
+
+handling this
+robust voxelization
+
+ray casting
+- trace many rays in different directions
+- combine results
+- make best judgment given the responses
+
+---------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
