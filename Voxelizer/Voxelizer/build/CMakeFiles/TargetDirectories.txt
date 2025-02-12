@@ -1,0 +1,3 @@
+C:/Users/edmar/Desktop/cs 581/Voxelizer/Voxelizer/build/CMakeFiles/voxelizer.dir
+C:/Users/edmar/Desktop/cs 581/Voxelizer/Voxelizer/build/CMakeFiles/edit_cache.dir
+C:/Users/edmar/Desktop/cs 581/Voxelizer/Voxelizer/build/CMakeFiles/rebuild_cache.dir
