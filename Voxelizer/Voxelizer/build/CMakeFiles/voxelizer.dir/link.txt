@@ -1,3 +1,1 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\voxelizer.dir/objects.a
-C:\MinGW\bin\ar.exe qc CMakeFiles\voxelizer.dir/objects.a @CMakeFiles\voxelizer.dir\objects1.rsp
-C:\MinGW\bin\c++.exe -Wl,--whole-archive CMakeFiles\voxelizer.dir/objects.a -Wl,--no-whole-archive -o voxelizer.exe -Wl,--out-implib,libvoxelizer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\voxelizer.dir\linkLibs.rsp
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/voxelizer.dir/source/CompFab.cpp.o CMakeFiles/voxelizer.dir/source/Mesh.cpp.o CMakeFiles/voxelizer.dir/source/main.cpp.o -o voxelizer

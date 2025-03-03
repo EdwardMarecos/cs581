@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/edmar/Desktop/cs 581/Voxelizer/Voxelizer/source/CompFab.cpp" "CMakeFiles/voxelizer.dir/source/CompFab.cpp.obj" "gcc" "CMakeFiles/voxelizer.dir/source/CompFab.cpp.obj.d"
-  "C:/Users/edmar/Desktop/cs 581/Voxelizer/Voxelizer/source/Mesh.cpp" "CMakeFiles/voxelizer.dir/source/Mesh.cpp.obj" "gcc" "CMakeFiles/voxelizer.dir/source/Mesh.cpp.obj.d"
-  "C:/Users/edmar/Desktop/cs 581/Voxelizer/Voxelizer/source/main.cpp" "CMakeFiles/voxelizer.dir/source/main.cpp.obj" "gcc" "CMakeFiles/voxelizer.dir/source/main.cpp.obj.d"
+  "/Users/edwardmarecos/documents/GitHub/cs581/Voxelizer/Voxelizer/source/CompFab.cpp" "CMakeFiles/voxelizer.dir/source/CompFab.cpp.o" "gcc" "CMakeFiles/voxelizer.dir/source/CompFab.cpp.o.d"
+  "/Users/edwardmarecos/documents/GitHub/cs581/Voxelizer/Voxelizer/source/Mesh.cpp" "CMakeFiles/voxelizer.dir/source/Mesh.cpp.o" "gcc" "CMakeFiles/voxelizer.dir/source/Mesh.cpp.o.d"
+  "/Users/edwardmarecos/documents/GitHub/cs581/Voxelizer/Voxelizer/source/main.cpp" "CMakeFiles/voxelizer.dir/source/main.cpp.o" "gcc" "CMakeFiles/voxelizer.dir/source/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
